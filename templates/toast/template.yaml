@@ -1,0 +1,8 @@
+dependencies:
+
+dirs:
+  lib:
+    - screens
+    - api
+    - models
+    - constants

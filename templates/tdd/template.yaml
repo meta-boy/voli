@@ -1,0 +1,51 @@
+description: Test Driven Development for flutter as proposed by 
+
+files:
+  lib/main: files/main.dart
+
+dirs:
+  lib:
+    features:
+      feature:
+        data:
+          - datasources
+          - models
+          - repositories
+        domain:
+          - entities
+          - repositories
+          - usecases
+
+        presentation:
+          - state_management
+          - pages
+          - widgets
+
+    core: 
+      - error
+      - network
+      - usecases
+      - util
+      
+  test:
+    features:
+      feature:
+        data:
+          - datasources
+          - models
+          - repositories
+        domain:
+          - entities
+          - repositories
+          - usecases
+
+        presentation:
+          - state_management
+          - pages
+          - widgets
+
+    core: 
+      - error
+      - network
+      - usecases
+      - util
