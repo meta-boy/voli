@@ -8,7 +8,7 @@ in `pubspec.yaml`
 
 ```yaml
 dev_dependencies:
-    voli: ^1.0.0
+    voli: ^1.0.0-dev.3
 ```  
 
 ## Usage
@@ -35,8 +35,10 @@ Folder PATH listing
 \---toast
         template.yaml
 
-# find out how to make your own templates here https://github.com/meta-boy/VoliTemplates
+
 ```
+
+- find out how to make your own templates here [Voli Templates](https://github.com/meta-boy/VoliTemplates)
 
 ## Disclaimer
 

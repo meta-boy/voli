@@ -9,3 +9,7 @@
 ## 1.0.0-dev.2
 
 - Added external templates support
+
+## 1.0.0-dev.3
+
+- Certain changelog changes
