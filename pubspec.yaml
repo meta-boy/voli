@@ -1,6 +1,6 @@
 name: voli
 description: A command-line app that adds boilerplate code to your flutter app!
-version: 1.0.0-dev.1
+version: 1.0.0-dev.2
 homepage: https://github.com/meta-boy/voli
 
 environment:

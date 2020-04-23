@@ -7,15 +7,14 @@ import 'package:path/path.dart' as path;
 import 'package:yaml/yaml.dart';
 
 // Project imports:
-import '../constants/paths.dart';
 import '../errors/exceptions.dart';
 
-Future<void> templateGenerator(String templateName) async {
+Future<void> templateGenerator(String templateName, String templateDir) async {
   String file;
 
   try {
     file = await File(path.join(
-          packageDirectory, 'templates', templateName, 'template.yaml'))
+          templateDir, templateName, 'template.yaml'))
       .readAsString();
   } on FileSystemException {
     throw TemplateFileNotFound(reason: 'TemplateFileNotFound Exception: template.yaml does not exist in the folder templates/$templateName');

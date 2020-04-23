@@ -6,13 +6,12 @@ import 'dart:io';
 import 'package:path/path.dart' as path;
 
 // Project imports:
-import '../constants/paths.dart';
 
-Future<List<String>> getTemplates() async {
+Future<List<String>> getTemplates(String templateDir) async {
   Directory templateFolder;
   List<String> templates;
    
-  templateFolder = Directory(path.join(packageDirectory, 'templates'));
+  templateFolder = Directory(templateDir);
   templates = [];
   var lister = templateFolder.list();
   await lister.forEach((element) {
