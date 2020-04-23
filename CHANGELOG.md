@@ -4,4 +4,4 @@
 
 ## 1.0.0-dev.1
 
-- Working version with limited functionalaity
+- Working version with limited functionality
