@@ -1,5 +1,12 @@
-import 'package:voli/helpers/template_genrator.dart';
+
+
+
+// Project imports:
+import 'package:voli/voli.dart';
 
 void main() async{
-  await templateGenerator('tdd');
+  await voli([
+    '-t',
+    'tdd'
+  ]);
 }

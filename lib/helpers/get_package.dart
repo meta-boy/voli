@@ -1,6 +1,9 @@
-import 'package:http/http.dart' as http;
 import 'package:meta/meta.dart';
 
+// Package imports:
+import 'package:http/http.dart' as http;
+
+// Project imports:
 import '../errors/exceptions.dart';
 import '../models/package.dart';
 

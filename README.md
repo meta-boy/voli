@@ -1,5 +1,23 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Voli
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A command line (in progress) tool to generate boilerplate code.
+
+## Installation
+
+in `pubspec.yaml`
+```yaml
+dev_dependencies:
+    voli: ^1.0.0
+```  
+
+## Usage
+
+```shell
+$ flutter pub run voli --template=tdd
+```
+
+## Disclaimer
+
+```shell
+for now this package is not ready for use but is actively developed, please do not install untill a stable relase is published
+```
